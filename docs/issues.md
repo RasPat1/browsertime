@@ -1,7 +1,7 @@
 Running one of the example from the example docs produces the following error:
 
 ``` shellsession
-browsertime https://www.sitespeed.io/             
+browsertime https://www.sitespeed.io/
 [2016-04-06 22:40:03] Running chrome for url: https://www.sitespeed.io/
 events.js:141
       throw er; // Unhandled 'error' event

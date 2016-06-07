@@ -11,11 +11,11 @@ browsertime https://www.sitespeed.io --experimental.dumpChromePerflog -b chrome
 
 - Used for debugging  chrome's native HAR export you can have it additionally output the Chrome performance logs.
 
-browsertime https://www.sitespeed.io --chrome.args -b chrome                        
+browsertime https://www.sitespeed.io --chrome.args -b chrome
 
 - Extra command line args to pass directly to the chrome process. (e.g. --no-sandbox)
 
-browsertime https://www.sitespeed.io --chrome.binaryPath -b chrome                  
+browsertime https://www.sitespeed.io --chrome.binaryPath -b chrome
 
 - Path to custom Chrome binary (e.g. Chrome Canary). On OS X, the path should be to the binary inside the app bundle. (e.g. /Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary)
 
